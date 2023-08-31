@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dancing+Script:wght@600&family=Heebo:wght@200&family=Libre+Franklin&family=Manrope:wght@600&family=Montserrat+Alternates:wght@200&family=Poppins:wght@300&family=Quicksand&family=Roboto:wght@300;400&family=Rubik:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dancing+Script:wght@600&family=Heebo:wght@200&family=Libre+Franklin&family=Manrope:wght@600&family=Montserrat+Alternates:wght@200&family=Philosopher:wght@700&family=Poppins:wght@300&family=Quicksand&family=Roboto:wght@300;400&family=Rubik:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+:root{
+    --dark-green:#123524; 
+    --light-green: #56c412;
+}
+.bg-about{
+    background-image: url(images/about/about-banner.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.nav-color{
+    background-color:var(--dark-green) ;
+}
+.carousel-item h2, h3{
+    color: var(--dark-green);
+    font-weight: bolder;
+    font-size: 2.6vw;
+}
+.carousel-caption{
+    top: 30%;
+    left: 15%;
+    text-align: left;
+    width: 100%;
+}
+.para2-carousel{
+    top: 30%;
+    left: 60%;
+    text-align: left;
+    width: 100%;
+    
+}
+.para-content h1{
+    color: var(--dark-green);
+    font-weight: bolder;
+    font-family: 'Philosopher', sans-serif !important;
+    font-size: 3vw;
+}
+.testimonial-bg{
+    background-image: url(images/gallery/g-3.jpg);
+    background-size: cover;
+}
+.testimonial-name-color{
+    color: #123524;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.margin-top-testimonial{
+    padding: 10rem 0rem;
+}
+/* about us */
+.about-title{
+    color: var(--dark-green);
+    font-weight: bolder;
+}
+.features-border{
+    border: 0.1rem solid var(--light-green);
+    border-radius: 10rem;
+}
+.features-card{
+    background-color: #c5f0ab86;
+}
+
+footer{
+    height: 30%;
+    background-image: linear-gradient(to top, #d3eac4, #d5ebc8, #d8edcc, #daeecf, #ddefd3, #e0f0d7, #e2f1da, #e5f2de, #e8f3e3, #ebf4e7, #eff5ec, #f2f6f0);
+}
+.footer-title{
+    color: #123524;
+    font-weight: bold;
+}
+.img-width{
+    width: 100%;
+    height: 100%;
+}
+.contact-bg{
+    width: 100%;
+    height: 70%;
+    background-color: #a4bd8b;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    footer{
+        line-height: 2vw;
+    }
+    footer h4{
+        font-size: 3vw;
+        font-weight: 700;
+        color: var(--dark-green);
+    }
+    footer h3{
+        font-size: 2.5vw;
+    }
+}
